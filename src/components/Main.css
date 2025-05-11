@@ -1,0 +1,117 @@
+.exchange-container {
+  max-width: 600px; /* Adjusted for responsiveness */
+  margin: 60px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f3f4f6, #ffffff);
+  text-align: center;
+}
+
+.exchange-header {
+  margin-bottom: 20px;
+}
+
+.exchange-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #1e90ff;
+  margin-bottom: 5px;
+}
+
+.exchange-description {
+  font-size: 1em;
+  color: #555;
+}
+
+.exchange-body {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 30px; /* Increased spacing between input groups */
+  position: relative;
+}
+
+.input-group label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.input-field input {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+}
+
+.input-field .token {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #1e90ff;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  border-left: 1px solid #ccc;
+}
+
+.token-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+.input-field input:disabled {
+  background-color: #eaeaea;
+  cursor: not-allowed;
+}
+
+.balance {
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-top: 4px;
+}
+
+.exchange-rate {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.exchange-footer {
+  margin-top: 20px;
+}
+
+.swap-button {
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.swap-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
