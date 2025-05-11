@@ -13,31 +13,25 @@ A simple starter template for developing, testing, and deploying Ethereum smart 
 
 **📁 Project Structure**
 
-Blockchain_Starter/
-├── contracts/               # Solidity smart contracts
-│   └── Migrations.sol
-├── migrations/              # Deployment scripts
-│   └── 1_initial_migration.js
-├── src/                     # Source code for frontend or scripts
-├── test/                    # Contract test files
-│   └── ExampleTest.js
-├── updateTokenJson.js       # Utility script for updating token metadata
-├── truffle-config.js        # Truffle configuration
-├── package.json             # Node project configuration
+    Blockchain_Starter/
+    ├── contracts/               # Solidity smart contracts
+    │   └── Migrations.sol
+    ├── migrations/              # Deployment scripts
+    │   └── 1_initial_migration.js
+    ├── src/                     # Source code for frontend or scripts
+    ├── test/                    # Contract test files
+    │   └── ExampleTest.js
+    ├── updateTokenJson.js       # Utility script for updating token metadata
+    ├── truffle-config.js        # Truffle configuration
+    ├── package.json             # Node project configuration
 
 
 **🛠️ Getting Started**
 
-**Prerequisites**
-		Make sure you have the following installed:
-		Node.js (https://nodejs.org/)
-		Truffle (https://trufflesuite.com/truffle/)
-		Ganache (https://trufflesuite.com/ganache/) (for local blockchain testing)
+    git clone https://github.com/dkwhitedevil/Blockchain_Starter.git
+    cd Blockchain_Starter
+    npm install
 
-**Installation**
-		git clone https://github.com/dkwhitedevil/Blockchain_Starter.git
-		cd Blockchain_Starter
-		npm install
 
 **⚙️ Usage**
 	
